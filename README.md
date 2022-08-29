@@ -8,7 +8,7 @@ In this project movie REST API is created and the data is saved persistently to 
 
 ## This project includes the following topics
 
-- Install PostgreSQL relational database
+- install PostgreSQL relational database
 - create database and tables using the SQL Shell (psql)
 - use PostgreSQL with Node.js and express
 - connect into database using Node.js
@@ -17,7 +17,7 @@ In this project movie REST API is created and the data is saved persistently to 
 
 
 ## Steps taken during this project
-1. #### install PostgreSQL relational database. 
+1. #### Install PostgreSQL relational database. 
         PostgreSQL installation provides some useful tools for database administration. One of these tools is SQL Shell that you can use to execute SQL statements to you database. 
 
 2. #### Create database and table for the movies
