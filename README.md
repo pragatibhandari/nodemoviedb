@@ -18,7 +18,7 @@ In this project movie REST API is created and the data is saved persistently to 
 
 ## Steps taken during this project
 1. #### Install PostgreSQL relational database. 
-        PostgreSQL installation provides some useful tools for database administration. One of these tools is SQL Shell that you can use to execute SQL statements to you database. 
+PostgreSQL installation provides some useful tools for database administration. One of these tools is SQL Shell that you can use to execute SQL statements to you database. 
 
 2. #### Create database and table for the movies
     1. Open the SQL Shell (psql) command line tool.
@@ -27,10 +27,10 @@ In this project movie REST API is created and the data is saved persistently to 
     
             CREATE DATABASE movie;
 
-    4. Next, we will connect to the movies database by typing following command in the SQL Shell.
+    4. Next, connect to the movies database by typing following command in the SQL Shell.
 
             \c movie
-    5. Then, we will create movies table to our movie database. 
+    5. Then, create movies table to movie database. 
 
             CREATE TABLE movies (
             id serial PRIMARY KEY,
@@ -38,7 +38,7 @@ In this project movie REST API is created and the data is saved persistently to 
             director VARCHAR (200) NOT NULL, 
             year INTEGER NOT NULL 
             );
-    6. Finally, you can type \d command in the SQL Shell to verify that movies table exists.
+    6. Finally, type \d command in the SQL Shell to verify that movies table exists.
 3. #### Create Node.js express project
     1. Create a new folder called nodemoviedb and change directory.
 
@@ -52,7 +52,7 @@ In this project movie REST API is created and the data is saved persistently to 
 
             npm install express body-parser
 
-    4. Add start and dev (nodemon) scripts to the package.json file. Then, your package.json file should look like the code below.
+    4. Add start and dev (nodemon) scripts to the package.json file. Then, package.json file should look like the code below.
 
             {
             "name": "nodemoviedb",
@@ -72,10 +72,10 @@ In this project movie REST API is created and the data is saved persistently to 
                 }
             }
 
-    5. Next, we will install Node postgres library
+    5. Next, install Node postgres library
 
     npm install pg
-And then your package.json file should look like below.
+And then package.json file should look like below.
 
  
     {
@@ -109,7 +109,7 @@ Finally, create index.js file in the root of nodemovied folder and copy followin
     app.listen(port, () => {
     console.log(`Server is running on port ${port}.`);
     });
-Now, you can start the web server using the npm run dev command.    
+Now, start the web server using the npm run dev command.    
 
 4. #### Create connection to movie database
 
