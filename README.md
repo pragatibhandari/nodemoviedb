@@ -72,44 +72,44 @@ PostgreSQL installation provides some useful tools for database administration. 
                 }
             }
 
-    5. Next, install Node postgres library
+    5. Next, we will install Node postgres library
 
-    npm install pg
-And then package.json file should look like below.
+            npm install pg
+And then your package.json file should look like below.
 
  
-    {
-    "name": "nodemoviedb",
-    "version": "1.0.0",
-    "description": "",
-     "main": "index.js",
-    "scripts": {
-        "dev": "nodemon index.js",
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "express": "^4.17.1",
-        "pg": "^8.1.0"
-    }
-    }
+        {
+        "name": "nodemoviedb",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+            "dev": "nodemon index.js",
+            "start": "node index.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC",
+        "dependencies": {
+            "body-parser": "^1.19.0",
+            "express": "^4.17.1",
+            "pg": "^8.1.0"
+        }
+        }
 Finally, create index.js file in the root of nodemovied folder and copy followinf code into the file.
 
-    const express = require('express');
-    const bodyParser = require('body-parser');
+        const express = require('express');
+        const bodyParser = require('body-parser');
 
-    const app = express();
-    app.use(bodyParser.json());
+        const app = express();
+        app.use(bodyParser.json());
 
-    const port = 3000;
+        const port = 3000;
 
-    app.listen(port, () => {
-    console.log(`Server is running on port ${port}.`);
-    });
-Now, start the web server using the npm run dev command.    
+        app.listen(port, () => {
+        console.log(`Server is running on port ${port}.`);
+        });
+Now, you can start the web server using the npm run dev command.    
 
 4. #### Create connection to movie database
 
@@ -118,3 +118,4 @@ Now, start the web server using the npm run dev command.
 7. #### Add data using POST
 8. #### Implement delete functionality (DELETE)
 9. #### Update data using PUT
+
