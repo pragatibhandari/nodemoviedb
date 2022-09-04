@@ -114,8 +114,8 @@ Now, you can start the web server using the npm run dev command.
 4. #### Create connection to movie database
 
 5. #### Fetch data using GET
-6. #### Add some structure to your project
-7. #### Add data using POST
+6. #### Adding structure to the project
+7. #### Adding data using POST
 8. #### Implement delete functionality (DELETE)
-9. #### Update data using PUT
+9. #### Updating data using PUT
 
