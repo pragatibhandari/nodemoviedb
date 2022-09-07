@@ -8,12 +8,12 @@ In this project movie REST API is created and the data is saved persistently to 
 
 ## This project includes the following topics
 
-- install PostgreSQL relational database
-- create database and tables using the SQL Shell (psql)
-- use PostgreSQL with Node.js and express
-- connect into database using Node.js
-- fetch data from the database using Node.js
-- create REST api with PostgreSQL database
+- installing PostgreSQL relational database
+- creating database and tables using the SQL Shell (psql)
+- using PostgreSQL with Node.js and express
+- connecting into database using Node.js
+- fetching data from the database using Node.js
+- creating REST api with PostgreSQL database
 
 
 ## Steps taken during this project
